@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
         title.setTextSize(15);
         title.setColor(ContextCompat.getColor(this, R.color.purple_200));
 
-        canvas.drawText("A portal for IT professionals.", 209, 100, title);
         canvas.drawText("Geeks for Geeks", 209, 80, title);
+        canvas.drawText("A portal for IT professionals.", 209, 100, title);
 
         title.setTypeface(Typeface.defaultFromStyle(Typeface.NORMAL));
         title.setColor(ContextCompat.getColor(this, R.color.purple_200));
